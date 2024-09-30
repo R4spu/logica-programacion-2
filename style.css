@@ -1,0 +1,67 @@
+header{
+    min-height: 10vh;
+}
+main{
+    min-height: 80vh;
+}
+footer{
+    min-height: 10vh;
+}
+
+.contenedorBoton{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.boton{
+    width: 400px;
+    height: 180px;
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: rgba(235, 53, 21, 0.726);
+    color: white;
+    box-shadow: -1px 9px 5px 0px rgba(0,0,0,0.75);
+}
+
+.contenedorInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.decorativo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color:  rgba(235, 53, 21, 0.726);
+}
+
+.titulo{
+    margin-left: 10px;
+    color: white}
+
+input{
+    border-radius: 20px;
+    height: 70px;
+    width: 400px;
+    text-align: center;
+}
+
+span{
+    font-size: 50px;
+    color: white;
+}
+
+#limpiar{
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+}
